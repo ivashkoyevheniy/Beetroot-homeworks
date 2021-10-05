@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    align-items: center;
+    background-color: $footer-bg-color;
+    &__container {
+        @include container-width;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo-container {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__icons-container {
+        width: 168px;
+        @include flex-beetween;
+    }
+    &__icon-link--hover:hover {
+        color: $main-color;
+    }
+}

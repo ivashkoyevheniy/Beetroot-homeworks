@@ -1,0 +1,26 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin flex-beetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @mixin container-width {
+    width: 1110px;
+  }
+  @mixin basic-button {
+      height: 60px;
+      width: 150px;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      background-color: $btn-bg-color;
+      letter-spacing: 1px;
+      font-family: $main-font;
+      color: $main-font-color;
+  }

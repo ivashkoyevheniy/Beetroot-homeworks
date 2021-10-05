@@ -1,0 +1,41 @@
+.search-button {
+  @include basic-button;
+  position: relative;
+
+  line-height: 20px;
+  background-color: $btn-bg-color;
+  border: none;
+  box-shadow: 0px 0px 0px 2px $search-bg-color inset;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  &--hover:hover {
+    box-shadow: none;
+  }
+}
+.button {
+  @include basic-button;
+  width: 225px;
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    $btn-hover-color 50%,
+    $btn-bg-color 50%
+  );
+  background-image: linear-gradient(
+    45deg,
+    $btn-hover-color 50%,
+    $btn-bg-color 50%
+  );
+  background-position: 58%;
+  background-size: 250%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  &--hover:hover {
+    background-position: 0;
+  }
+}

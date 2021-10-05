@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+    />
+    <meta name="keywords" content="Beetroot Academy, Examination 2" />
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="build/fonts.css" />
+    <link rel="stylesheet" href="build/index.css" />
+    <link rel="stylesheet" href="build/swiper-bundle.css" />
+    <title>Examination 2</title>
+  </head>
+  <body>
+    <header class="header" id="about-us">
+      <div class="header__top-container">
+        <div class="header__logo-container">
+          <a class="header__logo-link" href="#about-us"
+            ><img class="header__logo" src="svg/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <nav class="header__navigation navigation">
+          <ul class="navigation__bar">
+            <li class="navigation__elem">
+              <a class="navigation__link" id="nav-about-us" href="#about-us"
+                ><i class="far fa-circle navigation__elem-mark"></i
+                >About us</a
+              >
+            </li>
+            <li class="navigation__elem">
+              <a class="navigation__link" id="nav-projects" href="#projects"
+                ><i class="far fa-circle navigation__elem-mark"></i
+                >Projects</a
+              >
+            </li>
+            <li class="navigation__elem">
+              <a class="navigation__link" id="nav-news" href="#news"
+                ><i class="far fa-circle navigation__elem-mark"></i
+                >News</a
+              >
+            </li>
+            <li class="navigation__elem">
+              <a class="navigation__link" id="nav-contact" href="#contact"
+                ><i class="far fa-circle navigation__elem-mark"></i
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+          <form class="header__search search" id="searchForm" enctype="multipart/form-data" method="POST" action="#" novalidate>
+          <input class="header__search-field search-field" type="search" name="search" id="search" />
+          <a class="search__submit-link" type="submit" id="searchSubmit" href="#"
+            ><i class="far fa-search search__submit-icon"></i
+          ></a>
+        </form>
+      </div>
+      <div class="header__slider slider">
+        <div class="slider__container slider__container--active">
+          <h1 class="slider__title">Simple & Modern</h1>
+          <h2 class="slider__subtitle">We make the world's beautiful every day</h2>
+        </div>
+        <div class="slider__container slider__container--hiidden">
+          <h1 class="slider__title">Some name slide 2</h1>
+          <h2 class="slider__subtitle">Some text for slide number 2</h2>
+        </div>
+        <div class="slider__container slider__container--hiidden">
+          <h1 class="slider__title">Some name slide 3</h1>
+          <h2 class="slider__subtitle">Some text for slide number 3</h2>
+        </div>
+        <div class="slider__container slider__container--hiidden">
+          <h1 class="slider__title">Some name slide 4</h1>
+          <h2 class="slider__subtitle">Some text for slide number 4</h2>
+        </div>
+        <div class="slider__container slider__container--hiidden">
+          <h1 class="slider__title">Some name slide 5</h1>
+          <h2 class="slider__subtitle">Some text for slide number 5</h2>
+        </div>
+        <ul class="slider__dots">
+          <li class="slider__dot-element">
+            <a class="slider__dot-link" id="slider-btn-1"
+              ><i class="fas fa-circle slider__dot"></i
+            ></a>
+          </li>
+          <li class="slider__dot-element">
+            <a class="slider__dot-link" id="slider-btn-2"
+              ><i class="far fa-circle slider__dot"></i
+            ></a>
+          </li>
+          <li class="slider__dot-element">
+            <a class="slider__dot-link" id="slider-btn-3"
+              ><i class="far fa-circle slider__dot"></i
+            ></a>
+          </li>
+          <li class="slider__dot-element">
+            <a class="slider__dot-link" id="slider-btn-4"
+              ><i class="far fa-circle slider__dot"></i
+            ></a>
+          </li>
+          <li class="slider__dot-element">
+            <a class="slider__dot-link" id="slider-btn-5"
+              ><i class="far fa-circle slider__dot"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__nav-down-btn">
+        <a class="header__nav-btn" href="#projects">
+          <i class="fas fa-angle-down header__nav-down-arrow"></i>
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__projects projects" id="projects">
+        <div class="projects__title title">
+          <hr class="projects__title-line title-line" />
+          <h2 class="project__title-text title-text">What we do</h2>
+        </div>
+        <div class="projects__project project">
+          <div class="project__image-background--mirror"></div>
+          <div class="project__image-container">
+            <img
+              class="project__image"
+              src="img/project-1.jpg"
+              alt="project img"
+            />
+          </div>
+          <div class="project__content">
+            <h3 class="project__content-subtitle">One world</h3>
+            <h2 class="project__content-title">Trade center</h2>
+            <p class="project_content-info">
+              Increasing prosperity in our lives can be accomplished by having
+              the right frame of mind. The truth is, our thoughts are very
+              powerful.
+            </p>
+            <button class="project__content-button button">More details</button>
+            <div class="project__content-footer">
+              <i class="fas fa-map-marker-alt project__content-marker"></i>
+              <p class="project__content-location">
+                New York City, United States - 1776 feet
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="projects__project project project--mirror">
+          <div class="project__image-background"></div>
+          <div class="project__image-container">
+            <img
+              class="project__image"
+              src="img/project-2.jpg"
+              alt="project img"
+            />
+          </div>
+          <div class="project__content">
+            <h3 class="project__content-subtitle">International</h3>
+            <h2 class="project__content-title">Commerce center</h2>
+            <p class="project__content-info">
+              Successful businesses have many things in common, today we’ll look
+              at the big ‘R’ of recognition and how a digital advertising
+              network may help.
+            </p>
+            <button class="project__content-button button">More details</button>
+            <div class="project__content-footer">
+              <i class="fas fa-map-marker-alt project__content-marker"></i>
+              <p class="project__content-location">Hong Kong - 1588 feet</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__news news" id="news">
+        <div class="news__title title">
+          <hr class="news__title-line title-line" />
+          <h2 class="news__title-text title-text">Latest news</h2>
+        </div>
+
+        <div class="news__slider newsslider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="newsslider__slide swiper-slide">
+                <div class="newsslider__image-container">
+                  <img
+                    class="newsslider__image"
+                    src="img/news-1.jpg"
+                    alt="Building by Alja Brun"
+                  />
+                </div>
+                <div class="newsslider__content">
+                  <h2 class="newsslider__content-title">
+                    See The Unmatched Beauty Of The Great.
+                  </h2>
+                  <p class="newsslider__content-info">
+                    Free directories: directories are perfect for customers that
+                    are searching for...
+                  </p>
+                </div>
+                <div class="newsslider__author">
+                  <div class="newsslider__author-image-container">
+                    <img
+                      class="newsslider__author-image"
+                      src="img/author-icon-1.png"
+                      alt="Alja Brun Profile"
+                    />
+                  </div>
+                  <div class="newsslider__author-content">
+                    <h3 class="newsslider__author-name">Isaac Dunn</h3>
+                    <h4 class="newsslider__author-date">09 Feb 2017</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="newsslider__slide swiper-slide">
+                <div class="newsslider__image-container">
+                  <img
+                    class="newsslider__image"
+                    src="img/news-2.jpg"
+                    alt="Building by Dominic Freeman"
+                  />
+                </div>
+                <div class="newsslider__content">
+                  <h2 class="newsslider__content-title">
+                    Effective Advertising Pointers.
+                  </h2>
+                  <p class="newsslider__content-info">
+                    Having a home based business is a wonderful asset to your
+                    life...
+                  </p>
+                </div>
+                <div class="newsslider__author">
+                  <div class="newsslider__author-image-container">
+                    <img
+                      class="newsslider__author-image"
+                      src="img/author-icon-2.png"
+                      alt="Dominic Freeman Profile"
+                    />
+                  </div>
+                  <div class="newsslider__author-content">
+                    <h3 class="newsslider__author-name">Dominic Freeman</h3>
+                    <h4 class="newsslider__author-date">24 Apr 2017</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="newsslider__slide swiper-slide">
+                <div class="newsslider__image-container">
+                  <img
+                    class="newsslider__image"
+                    src="img/news-3.jpg"
+                    alt="Building by Alice Ward"
+                  />
+                </div>
+                <div class="newsslider__content">
+                  <h2 class="newsslider__content-title">
+                    Hypnotize Yourself Into The Ghost.
+                  </h2>
+                  <p class="newsslider__content-info">
+                    There are many things that are important to catalog
+                    design...
+                  </p>
+                </div>
+                <div class="newsslider__author">
+                  <div class="newsslider__author-image-container">
+                    <img
+                      class="newsslider__author-image"
+                      src="img/author-icon-3.png"
+                      alt="Alice Ward Profile"
+                    />
+                  </div>
+                  <div class="newsslider__author-content">
+                    <h3 class="newsslider__author-name">Alice Ward</h3>
+                    <h4 class="newsslider__author-date">30 Dec 2017</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="newsslider__slide swiper-slide">
+                <div class="newsslider__image-container">
+                  <img
+                    class="newsslider__image"
+                    src="img/news-1.jpg"
+                    alt="Building by Alja Brun"
+                  />
+                </div>
+                <div class="newsslider__content">
+                  <h2 class="newsslider__content-title">
+                    See the umatched beauty of the great.
+                  </h2>
+                  <p class="newsslider__content-info">
+                    Free directories: directories are perfect for customers that
+                    are searching for...
+                  </p>
+                </div>
+                <div class="newsslider__author">
+                  <div class="newsslider__author-image-container">
+                    <img
+                      class="newsslider__author-image"
+                      src="img/author-icon-1.png"
+                      alt="Alja Brun Profile"
+                    />
+                  </div>
+                  <div class="newsslider__author-content">
+                    <h3 class="newsslider__author-name">Isaac Dunn</h3>
+                    <h4 class="newsslider__author-date">09 Feb 2017</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="newsslider__slide swiper-slide">
+                <div class="newsslider__image-container">
+                  <img class="newsslider__image" src="img/news-2.jpg" alt="Building by Dominic Freeman" />
+                </div>
+                <div class="newsslider__content">
+                  <h2 class="newsslider__content-title">
+                    Effective advertising pointers.
+                  </h2>
+                  <p class="newsslider__content-info">
+                    Having a home based business is a wonderful asset to your
+                    life...
+                  </p>
+                </div>
+                <div class="newsslider__author">
+                  <div class="newsslider__author-image-container">
+                    <img
+                      class="newsslider__author-image"
+                      src="img/author-icon-2.png"
+                      alt="Dominic Freeman Profile"
+                    />
+                  </div>
+                  <div class="newsslider__author-content">
+                    <h3 class="newsslider__author-name">Dominic Freeman</h3>
+                    <h4 class="newsslider__author-date">24 Apr 2017</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="main__gallery gallery" id="gallery">
+        <div class="gallery__title title">
+          <hr class="gallery__title-line title-line" />
+          <h2 class="gallery__title-text title-text">Gallery</h2>
+        </div>
+        <div class="gallery__images">
+          <div class="gallery__img-container gallery__img-container--big">
+            <img
+              class="gallery__img"
+              src="img/gallery-1.jpg"
+              alt="project-img"
+            />
+          </div>
+          <div
+            class="
+              gallery__imgage-container gallery__img-container--small-first
+            "
+          >
+            <img
+              class="gallery__img"
+              src="img/gallery-2.jpg"
+              alt="project-img"
+            />
+          </div>
+          <div
+            class="gallery__img-container gallery__img-container--small-second"
+          >
+            <img
+              class="gallery__img"
+              src="img/gallery-3.jpg"
+              alt="project-img"
+            />
+          </div>
+          <div
+            class="gallery__img-container gallery__img-container--small-third"
+          >
+            <img
+              class="gallery__img"
+              src="img/gallery-4.jpg"
+              alt="project-img"
+            />
+          </div>
+          <div
+            class="gallery__img-container gallery__img-container--small-fourth"
+          >
+            <img
+              class="gallery__img"
+              src="img/gallery-5.jpg"
+              alt="project-img"
+            />
+          </div>
+        </div>
+        <div class="gallery__button-container">
+          <button class="gallery__button button">See more</button>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__map" id="map"></div>
+        <div class="contact__container">
+          <div class="contact__title title">
+            <hr class="contact__title-line title-line" />
+            <h2 class="contact__title-text title-text">Get in touch</h2>
+          </div>
+          <div class="contact__content-container">
+            <div class="contact__info-container">
+              <span class="contact__info-text">
+                <i class="fas fa-map-marker-alt contact__info-marker"></i>
+                91 Nolan Extensions Suite 670</span
+              >
+              <a class="contact__info-text" href="tel:+001 356-868-2454">
+                <i class="fas fa-phone-alt contact__info-marker"></i>
+                +001 356-868-2454</a
+              >
+              <a
+                class="contact__info-text"
+                href="mailto:montichello@service.com"
+              >
+                <i class="fas fa-inbox contact__info-marker"></i>
+                montichello@service.com</a
+              >
+              <span class="contact__info-text">
+                <i class="far fa-clock contact__info-marker"></i>
+
+                From 07:05AM to 19:30PM</span
+              >
+            </div>
+            <form action="#" id="contactForm" name="contactForm" class="contact__form" method="POST" enctype="multipart/form-data" novalidate>
+              <input
+                id="name"
+                name="name"
+                class="contact__form-name"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                id="email"
+                name="email"
+                class="contact__form-email"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                id="contactSubmit"
+                class="contact__form-button button"
+                type="submit"
+                value="Submit"
+              >
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__top-container">
+          <a href="#about-us"
+            ><img class="footer__logo" src="svg/logo.svg" alt="footer-logo"
+          /></a>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#"
+              ><i class="fab fa-facebook-f footer__social-icon"></i
+            ></a>
+            <a class="footer__social-link" href="#"
+              ><i class="fab fa-twitter footer__social-icon"></i
+            ></a>
+            <a class="footer__social-link" href="#"
+              ><i class="fab fa-instagram footer__social-icon"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom-container">
+          <h5 class="footer__copyright">Copyrights &copy; 2021 Monticello</h5>
+          <span class="footer__developer"
+            >Made with &#9829; by Yevheniy Ivashko</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script/contact-form.js"></script>
+    <script src="script/search-form.js"></script>
+    <script src="script/header-nav-bar.js"></script>
+    <script src="script/header-slider.js"></script>
+    <script src="script/news-slider.js"></script>
+    <script src="script/map.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmZGT52cj5b5QXl6DKalnZonOKYsvydUw&callback=initMap&libraries=&v=weekly"
+        async></script>
+  </body>
+</html>

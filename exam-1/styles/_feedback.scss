@@ -1,0 +1,69 @@
+.feedback {
+    width: 100%;
+    height: 731px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../img/feedback-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 1000px) {
+      height: 900px;
+    }
+  &__container {
+    @include container-width;
+    height: 411px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 1000px) {
+      height: 620px;
+    }
+  }
+  &__content-container {
+    width: 100%;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $main-bg-color;
+    @media screen and (max-width: 1000px) {
+      height: 568px;
+      width: 445px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__right {
+     width: 60%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     @media screen and (max-width: 1000px) {
+      width: 90%;
+     }
+  }
+  &__right-container {
+    width: 552px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    text-indent: 30px;
+    line-height: 1.3;
+  }
+  &__icon {
+    font-size: 18px;
+    color: $main-color;
+  }
+
+}

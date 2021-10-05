@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?slllhm');
+  src:  url('../fonts/icons.eot?slllhm#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?slllhm') format('truetype'),
+    url('../fonts/icons.woff?slllhm') format('woff'),
+    url('../fonts/icons.svg?slllhm#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-angle-down {
+  color: $main-font-color;
+  font-size: 13px;
+  &:before {
+  content: "\e900";
+}
+}
+.icon-search {
+  color: $first-icon-color;
+  &--small {
+    position: absolute;
+    color: $main-font-color;
+    font-size: 20px;
+    right: 17px;
+  }
+&:before {
+  content: "\e903";
+}
+}
+.icon-check {
+  color: $second-icon-color;
+&:before {
+  content: "\e901";
+}
+}
+.icon-like {
+  color: $first-icon-color;
+&:before {
+  content: "\e902";
+}
+}
